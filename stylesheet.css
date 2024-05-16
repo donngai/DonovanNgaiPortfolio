@@ -73,7 +73,7 @@ body {
     }
     
     .top-mid h3 {
-        font-size: 36px;
+        font-size: 40px;
         font-weight: bold;
         color: #1F2937;
     }
@@ -110,64 +110,48 @@ body {
     /* Bot-Mid Section */
     .bot-mid {
         display: flex;
-        flex-direction: column;
-        padding: 100px 175px;
+        flex-direction: row;
+        padding: 30px 100px;
         background-color: #E5E7EB;
-    }
-    
-    .bot-mid .quote {
-        font-size: 36px;
-        font-style: italic;
-        color: #6D747D;
-        margin: 0px;
-    }
-    
-    .bot-mid .author {
-        margin: 0px;
-        align-self: flex-end;
-        font-size: 24px;
-        font-weight: bold;
-    }
-    
-    /* Bot Section */
-    .bot {
-        display: flex;
-        justify-content: space-between;
         align-items: center;
-        background-color: #3882F6;
-        border-radius: 8px;
-        margin: 100px;
-        padding: 50px 150px;
-        gap: 30px;
+        justify-content: space-evenly;
     }
     
-    .bot h4 {
-        margin: 0;
-        font-size: 24px;
-        color: #F9FAF8;
+    .bot-mid .text {
+        display: flex;
+        flex-direction: column;
     }
-    
-    .bot p {
-        margin: 0;
-        font-size: 18px;
-        color: #F9FAF8
-    }
-    
-    .bot button {
-        font-size: 18px;
+
+    .bot-mid h3 {
+        font-size: 40px;
         font-weight: bold;
-        padding: 5px 30px;
-        border-radius: 8px;
-        background-color: #3882F6;
-        color: #F9FAF8;
-        border-color: #F9FAF8;
-        border-style:solid;
+        color: #1F2937;
     }
-    
-    /* Footer */
-    .footer {
-        text-align: center;
-        background-color: #1F2937;
-        color: #F9FAF8;
-        padding: 40px;
+
+    .bot-mid p {
+        font-size: 18px; 
+        max-width: 500px;
+    }
+
+    .bot-mid .entire {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bot-mid .entire div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .bot-mid .entire .container img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .bot-mid .entire .container a {
+        padding: 10px;
+        font-size: 18px;
+        color: #3882F6;
     }
